@@ -1,0 +1,9 @@
+[project]
+name = "pip-version-critical"
+version = "0.1.0"
+description = "Critical test: Dependencies require Python 3.11+"
+requires-python = ">=3.8"
+dependencies = [
+    "tomli>=2.0.0; python_version >= '3.11'",
+    "typing-extensions>=4.8.0",
+]
